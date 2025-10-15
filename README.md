@@ -16,12 +16,13 @@ Tecnologias Utilizadas
 
  -----
 
-Como Executar
-	1.	Acesse o console da AWS.
-	2.	Vá até CloudFormation > Create Stack.
-	3.	Faça upload do template desejado (ex: templates/vpc-template.yaml).
-	4.	Clique em Next e siga as instruções.
-	5.	Após o deploy, verifique os recursos criados em Resources.
+## Como Executar
+
+	1.	Acesse o console da AWS
+	2.	Vá até CloudFormation > Create Stack
+	3.	Faça upload do template desejado (ex: templates/vpc-template.yaml)
+	4.	Clique em Next e siga as instruções
+	5.	Após o deploy, verifique os recursos criados em Resources
 
 -----
 
