@@ -44,10 +44,10 @@ Conceitos Envolvidos
 
  📚 Links Úteis
 
-- 🌩️ [Documentação Oficial AWS CloudFormation](https://docs.aws.amazon.com/cloudformation/)
-- 🧱 [Guia de Recursos AWS](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
-- 💻 [Plataforma DIO – Desafio CloudFormation](https://web.dio.me/)
-- 📘 [Cursos AWS na DIO](https://web.dio.me/track/aws-cloud)
+- 🌩️ [Documentação Oficial AWS CloudFormation](https://docs.aws.amazon.com/cloudformation/);
+- 🧱 [Guia de Recursos AWS](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html);
+- 💻 [Plataforma DIO – Desafio CloudFormation](https://web.dio.me/);
+- 📘 [Cursos AWS na DIO](https://web.dio.me/track/aws-cloud);
 
 
 
