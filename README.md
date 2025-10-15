@@ -1,6 +1,6 @@
 # infra-auto-cloudformation
-☁️ Implementando Infraestrutura Automatizada com AWS CloudFormation
-##Descrição do Projeto
+## Implementando Infraestrutura Automatizada com AWS CloudFormation
+## Descrição do Projeto
 Este repositório contém templates AWS CloudFormation criados para automatizar a infraestrutura em nuvem, incluindo VPC, EC2, Security Groups e Firewalls.
 O objetivo é praticar Infraestrutura como Código (IaC) utilizando YAML, promovendo automação, escalabilidade e segurança.
 
@@ -23,8 +23,8 @@ O objetivo é praticar Infraestrutura como Código (IaC) utilizando YAML, promov
 -----
 
 ## Estrutura dos Templates
-## Template.                        ## Função
--vpc-template.yaml.              -Cria a rede VPC, subnets e tabelas de rota.
+## Template.                                          Função
+• vpc-template.yaml.              •Cria a rede VPC, subnets e tabelas de rota.
 -ec2-template.yaml.              -Cria instâncias EC2 e vincula à VPC.
 -security-group.yaml.            -Configura regras de firewall e portas liberadas.
 -outputs.yaml.                   -Exibe os recursos criados e seus IDs.
