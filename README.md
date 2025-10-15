@@ -23,11 +23,11 @@ O objetivo é praticar Infraestrutura como Código (IaC) utilizando YAML, promov
 -----
 
 ## Estrutura dos Templates
-Template.                        Função
-vpc-template.yaml.       Cria a rede VPC, subnets e tabelas de rota
-ec2-template.yaml.       Cria instâncias EC2 e vincula à VPC
-security-group.yaml.     Configura regras de firewall e portas liberadas
-outputs.yaml.            Exibe os recursos criados e seus IDs
+## Template.                        ## Função
+-vpc-template.yaml.              -Cria a rede VPC, subnets e tabelas de rota.
+-ec2-template.yaml.              -Cria instâncias EC2 e vincula à VPC.
+-security-group.yaml.            -Configura regras de firewall e portas liberadas.
+-outputs.yaml.                   -Exibe os recursos criados e seus IDs.
 
 ----
 
