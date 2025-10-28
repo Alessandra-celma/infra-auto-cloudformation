@@ -38,7 +38,7 @@ A atividade desafia os participantes a aplicar conceitos de **padronização, re
 ├── 📄 template-ec2.yaml
 ├── 📄 parameters.json
 └── 📄 outputs.json
- 
+ '''
 ___
 
     •	template-vpc.yaml → Criação da rede VPC com subnets públicas e privadas.
