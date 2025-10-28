@@ -38,4 +38,10 @@ A atividade desafia os participantes a aplicar conceitos de **padronização, re
 ├── 📄 template-ec2.yaml
 ├── 📄 parameters.json
 └── 📄 outputs.json
+ 
+___
 
+    •	template-vpc.yaml → Criação da rede VPC com subnets públicas e privadas.
+	•	template-ec2.yaml → Configuração de instâncias EC2.
+	•	parameters.json → Parâmetros reutilizáveis para o stack.
+	•	outputs.json → Saídas com IDs e informações úteis do deploy.
