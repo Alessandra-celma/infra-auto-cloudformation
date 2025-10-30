@@ -1,13 +1,13 @@
   # Implementando Infraestrutura Automatizada com AWS CloudFormation
 
-## 📘 Descrição
+##  Descrição
 
 Explore a automação de infraestrutura como código (IaC), utilizando **templates em JSON ou YAML** para criação, configuração e gerenciamento de recursos na **AWS**.  
 A atividade desafia os participantes a aplicar conceitos de **padronização, replicação e segurança** na infraestrutura em nuvem, simulando cenários reais de **provisionamento automatizado**.
 
 ---
 
-## 🚀 Objetivos do Projeto
+## Objetivos do Projeto
 
 - Criar e configurar recursos na AWS de forma automatizada.  
 - Utilizar o **AWS CloudFormation** como ferramenta principal de IaC.  
@@ -17,7 +17,7 @@ A atividade desafia os participantes a aplicar conceitos de **padronização, re
 
 ---
 
-## 🧩 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **AWS CloudFormation**  
 - **Amazon EC2**  
@@ -29,7 +29,7 @@ A atividade desafia os participantes a aplicar conceitos de **padronização, re
 
 ---
 
-## 🏗️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```bash
 📁 aws-cloudformation-project/
@@ -38,8 +38,8 @@ A atividade desafia os participantes a aplicar conceitos de **padronização, re
 ├── 📄 template-ec2.yaml
 ├── 📄 parameters.json
 └── 📄 outputs.json
-'''
-___
+```
+---
 
     •	template-vpc.yaml → Criação da rede VPC com subnets públicas e privadas.
 	•	template-ec2.yaml → Configuração de instâncias EC2.
@@ -48,7 +48,7 @@ ___
     
 ---
 
-⚙️ Passos para Execução
+## Passos para Execução
 	1.	Faça login na sua conta AWS.
 	2.	Acesse o serviço CloudFormation.
 	3.	Clique em Create Stack → With new resources (standard).
@@ -59,10 +59,11 @@ ___
 
 ----
 
-Diagrama da Arquitetura AWS
+## Diagrama da Arquitetura AWS
 
 Representação simplificada da infraestrutura criada pelo CloudFormation:
 
+```
                     ☁️ AWS Cloud
                          │
               ┌──────────┴──────────┐
@@ -79,8 +80,10 @@ Representação simplificada da infraestrutura criada pelo CloudFormation:
      │
   🔐 IAM Role & Policies
 
+```
 ---
-Explicação do fluxo:
+
+## Explicação do fluxo:
 	•	O CloudFormation provisiona todos os recursos de forma automatizada.
 	•	A VPC organiza a rede, dividida em subnets públicas e privadas.
 	•	A instância EC2 é criada dentro da subnet pública.
