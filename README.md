@@ -1,4 +1,4 @@
-# ☁️ Implementando Infraestrutura Automatizada com AWS CloudFormation
+  # Implementando Infraestrutura Automatizada com AWS CloudFormation
 
 ## 📘 Descrição
 
@@ -38,10 +38,54 @@ A atividade desafia os participantes a aplicar conceitos de **padronização, re
 ├── 📄 template-ec2.yaml
 ├── 📄 parameters.json
 └── 📄 outputs.json
-```
+'''
 ___
 
     •	template-vpc.yaml → Criação da rede VPC com subnets públicas e privadas.
 	•	template-ec2.yaml → Configuração de instâncias EC2.
 	•	parameters.json → Parâmetros reutilizáveis para o stack.
 	•	outputs.json → Saídas com IDs e informações úteis do deploy.
+    
+---
+
+⚙️ Passos para Execução
+	1.	Faça login na sua conta AWS.
+	2.	Acesse o serviço CloudFormation.
+	3.	Clique em Create Stack → With new resources (standard).
+	4.	Envie o template .yaml ou .json deste projeto.
+	5.	Defina os parâmetros necessários.
+	6.	Clique em Next → Next → Create Stack.
+	7.	Aguarde até que o status mude para CREATE_COMPLETE.
+
+----
+
+Diagrama da Arquitetura AWS
+
+Representação simplificada da infraestrutura criada pelo CloudFormation:
+
+                    ☁️ AWS Cloud
+                         │
+              ┌──────────┴──────────┐
+              │                     │
+         🌐 VPC (10.0.0.0/16)       │
+              │                     │
+     ┌────────┴─────────┐       🪣 S3 Bucket
+     │                  │
+🌍 Subnet Pública   🔒 Subnet Privada
+     │                  │
+     │                  │
+  ⚙️ EC2 Instance     🧩 RDS Database
+     │
+     │
+  🔐 IAM Role & Policies
+
+---
+Explicação do fluxo:
+	•	O CloudFormation provisiona todos os recursos de forma automatizada.
+	•	A VPC organiza a rede, dividida em subnets públicas e privadas.
+	•	A instância EC2 é criada dentro da subnet pública.
+	•	O Bucket S3 armazena arquivos e logs do ambiente.
+	•	O IAM controla permissões e segurança de acesso.
+
+
+
