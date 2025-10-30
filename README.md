@@ -101,6 +101,7 @@ Representação simplificada da infraestrutura criada pelo CloudFormation:
 	•	Integração com pipelines ￼
 
 ---
+
 📎 Links Úteis
 	•	🌩️ Documentação oficial da AWS CloudFormation￼
 	•	🧱 Guia de referência de recursos da AWS￼
