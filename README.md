@@ -1,4 +1,4 @@
-  # Implementando Infraestrutura Automatizada com AWS CloudFormation
+#  # Implementando Infraestrutura Automatizada com AWS CloudFormation
 
 ##  Descrição
 
@@ -98,18 +98,13 @@ Representação simplificada da infraestrutura criada pelo CloudFormation:
 	•	Infraestrutura automatizada com CloudFormation
 	•	Reutilização e versionamento de templates
 	•	Boas práticas de segurança e replicação
-	•	Integração com pipelines DevOps
- 
+	•	Integração com pipelines ￼
+
 ---
-
-
-Links Úteis
+📎 Links Úteis
 	•	🌩️ Documentação oficial da AWS CloudFormation￼
 	•	🧱 Guia de referência de recursos da AWS￼
 	•	🎓 Plataforma DIO – Cursos e Desafios AWS￼
-
----
-
 
 ## Conclusão
 
