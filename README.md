@@ -95,18 +95,18 @@ Representação simplificada da infraestrutura criada pelo CloudFormation:
 
 
 ## Aprendizados-Chave
+
 	•	Infraestrutura automatizada com CloudFormation
 	•	Reutilização e versionamento de templates
 	•	Boas práticas de segurança e replicação
 	•	Integração com pipelines ￼
 
----
 
-📎 Links Úteis
-	•	🌩️ Documentação oficial da AWS CloudFormation￼
-	•	🧱 Guia de referência de recursos da AWS￼
-	•	🎓 Plataforma DIO – Cursos e Desafios AWS￼
+## 📎 Links Úteis
 
+- 🌩️ [Documentação oficial da AWS CloudFormation](https://docs.aws.amazon.com/cloudformation/index.html)  
+- 🧱 [Guia de referência de recursos da AWS](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)  
+- 🎓 [Plataforma DIO – Cursos e Desafios AWS](https://www.dio.me/)
 ## Conclusão
 
 Este projeto reforça o uso da Infraestrutura como Código (IaC) como base para autonomia, padronização e escalabilidade na nuvem.
