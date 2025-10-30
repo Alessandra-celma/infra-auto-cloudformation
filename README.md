@@ -91,4 +91,32 @@ Representação simplificada da infraestrutura criada pelo CloudFormation:
 	•	O IAM controla permissões e segurança de acesso.
 
 
+---
+
+
+## Aprendizados-Chave
+	•	Infraestrutura automatizada com CloudFormation
+	•	Reutilização e versionamento de templates
+	•	Boas práticas de segurança e replicação
+	•	Integração com pipelines DevOps
+
+⸻
+
+## Links Úteis
+	•	🌩️ Documentação oficial da AWS CloudFormation￼
+	•	🧱 Guia de referência de recursos da AWS￼
+	•	🎓 Plataforma DIO – Cursos e Desafios AWS￼
+
+⸻
+
+## Conclusão
+
+Este projeto reforça o uso da Infraestrutura como Código (IaC) como base para autonomia, padronização e escalabilidade na nuvem.
+Ao dominar o AWS CloudFormation, o desenvolvedor se torna capaz de entregar ambientes consistentes, seguros e replicáveis com apenas alguns comandos.
+
+⸻
+
+⭐ Se este projeto te ajudou, não esqueça de dar um “Star” no repositório!
+
+
 
